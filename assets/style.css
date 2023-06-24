@@ -100,10 +100,6 @@ button:active {
   position: relative;
 }
 
-.card > * + * {
-  margin-top: 1.1em;
-}
-
 .card .card__content {
   color: var(--secondary-color);
   font-size: 0.86rem;
