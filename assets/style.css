@@ -26,46 +26,6 @@ body {
   margin: 1.8em;
 }  
 
-.task {
-  position: relative;
-  color: #2e2e2f;
-  background-color: #fff;
-  padding: 0.8em;
-  border-radius: 8px;
-  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
-  margin-bottom: 0.5rem;
-  border: 3px transparent;
-  max-width: 300px;
-}
-
-.task:hover {
-  box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
-  border-color: rgba(162, 179, 207, 0.2) !important;
-}
-
-.task p {
-  font-size: 16px;
-  margin-top: 0.3em;
-}
-
-.tag {
-  border-radius: 100px;
-  padding: 4px 13px;
-  font-size: 14px;
-  color: #ffffff;
-  background-color: #60819c;
-}
-
-.tags {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-/* this card is inspired form this - https://georgefrancis.dev/ */
-
 .card {
   --border-radius: 0.75rem;
   --primary-color: rgb(0, 70, 84);
@@ -242,7 +202,7 @@ body {
 
   .card {
     width: 25em;
-    height: 15em;
+    height: 17em;
   }
 
   .imgWhats {
