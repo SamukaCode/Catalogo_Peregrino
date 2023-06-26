@@ -257,8 +257,7 @@ body {
   }
 
   .cookie-card {
-    max-width: 250px;
-    padding: 1rem;
+    display: none;
   }
 }
 
