@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
 body {
     background-color: #f3f3f3;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
 }
 
 .bg-gray {
@@ -13,16 +24,16 @@ body {
 }
 
 .imagem {
-  width: 120px;
-  height: 120px;
-  border-radius: 5px;
+  width: 140px;
+  aspect-ratio: 4/3;
+  object-fit: contain;
   margin: 1.8em;
 }  
 
 .imagemCamps {
-  width: 140px;
-  height: 140px;
-  border-radius: 5px;
+  width: 180px;
+  aspect-ratio: 4/3;
+  object-fit: contain;
   margin: 1.8em;
 }  
 
@@ -31,8 +42,8 @@ body {
   --primary-color: rgb(0, 70, 84);
   --secondary-color: #3c3852;
   width: 600px;
-  height: 200px;
-  font-family: "Arial";
+  height: 230px;
+  font-size: 18px;
   padding: 1rem;
   border-radius: var(--border-radius);
   background: #f1f1f3;
@@ -188,15 +199,21 @@ body {
 
 
 @media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.4em;
+  }
+
+  h2 {
+    font-size: 2.2em;
+  }
+  
   .imagem {
-    width: 70px;
-    height: 70px;
+    width: 85px;
     margin: 1.3em;
   }  
   
   .imagemCamps {
-    width: 85px;
-    height: 85px;
+    width: 100px;
     margin: 1.2em;
   }  
 
@@ -223,15 +240,11 @@ body {
 
 @media only screen and (min-width: 768px) and (max-width: 1400px) {
   .imagem {
-    width: 100px;
-    height: 100px;
-    margin: 1.5em;
+    width: 120px;
   }  
   
   .imagemCamps {
-    width: 110px;
-    height: 110px;
-    margin: 1.5em;
+    width: 140px;
   }  
 
   .card {
