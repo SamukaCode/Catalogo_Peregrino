@@ -28,14 +28,24 @@ h2 {
   aspect-ratio: 4/3;
   object-fit: contain;
   margin: 1.8em;
+  transition: transform 0.3s ease; /* Define a transição suave da animação */
 }  
+
+.imagem:hover{
+  transform: translateY(-15px); /* Move a imagem 10 pixels para cima */
+}
 
 .imagemCamps {
   width: 180px;
   aspect-ratio: 4/3;
   object-fit: contain;
   margin: 1.8em;
+  transition: transform 0.3s ease;
 }  
+
+.imagemCamps:hover{
+  transform: translateY(-15px); /* Move a imagem 10 pixels para cima */
+}
 
 .card {
   --border-radius: 0.75rem;
